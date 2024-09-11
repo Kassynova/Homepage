@@ -1,0 +1,140 @@
+body{
+    background-color:whitesmoke;
+}
+
+.banner{ 
+    position: relative;
+    background-size: cover;
+    background-image: url('images/lagos.jpg');
+    height: 500px;
+    background-position: center center;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px; 
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #f5f9fc;
+    font-family: "DM Sans", sans-serif;
+    
+}
+h1{
+    font-size: 2.6rem;
+    background-color: #d1e1ed;
+    color: #206c9b;
+    border-radius: 5px;
+    max-width: 350px;
+    margin: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.top{
+    font-size: 1.1rem;
+    color: #1b4682;
+    background-color: #dce6ec;
+    border-radius: 5px;
+    padding: 20px;
+    font-family: "Reddit Sans Condensed", sans-serif;
+}
+
+.activities {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f5f9fc;
+}
+
+.activities h2 {
+    font-size: 2rem;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+.activity-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px; 
+    flex-wrap: wrap; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.activity {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; 
+    
+}
+.activities {
+    margin-top: 40px; 
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f5f9fc;
+   
+}
+.activity:hover {
+    transform: translateY(-5px); 
+}
+
+.activity img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    background-color: #e6f0f3;
+}
+
+.activity h3 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.activity p {
+    font-size: 1rem;
+    color: #555;
+}
+
+
+.guide{
+    background-color: rgb(71, 231, 231);
+    max-width: 500px;
+    margin: auto;
+    border-radius: 8px;
+}
+.guide-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;}
+section.guide h2 {
+font-size: 1.8rem;
+font-family: Karla, Arial, sans-serif;
+
+
+}
+.guide-text{
+    font-size: 1.0rem;
+    font-family: sans-serif;
+}
+
+
+.guide-info img {
+    border-radius: 5px;
+    margin-right: 20px;
+    border: 3px solid #ccc;
+    object-fit: cover;
+}
